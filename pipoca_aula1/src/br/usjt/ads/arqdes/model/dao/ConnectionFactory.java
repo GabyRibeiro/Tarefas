@@ -20,7 +20,7 @@ public class ConnectionFactory {
 	public static Connection getConnection() throws IOException {
 		try {
 			return DriverManager.getConnection("jdbc:mysql://localhost/pipocadb?"
-					+ "user=root&password=Senha_10&useSSL=false");
+					+ "user=root&password=Senha_110&useSSL=false");
 		} catch (SQLException e) {
 			e.printStackTrace();
 			throw new IOException(e);
