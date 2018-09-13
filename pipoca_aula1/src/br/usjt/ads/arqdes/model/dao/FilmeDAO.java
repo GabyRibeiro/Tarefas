@@ -12,7 +12,7 @@ public class FilmeDAO {
 	
 	public int inserirFilme(Filme filme) throws IOException {
 		int id = -1;
-
+		// filme.getId() = 1;
 		
 		String sql = "insert into Filme (titulo, descricao, diretor, posterpath, popularidade, data_lancamento, id_genero) values (?,?,?,?,?,?,?)";
 		
