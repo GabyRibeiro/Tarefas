@@ -21,5 +21,16 @@ public class FilmeService {
 		filme.setId(id);
 		return filme;
 	}
+	
+	public Filme atualizarFilme(Filme filme) throws IOException {
+		int id = dao.atualizarFilme(filme);
+		filme.setId(id);
+		return filme;
+	}
+	
+	
+	public void excluirFilme(Filme filme) throws IOException {
+		int id = dao.excluirFilme(filme);
+	}
 
 }

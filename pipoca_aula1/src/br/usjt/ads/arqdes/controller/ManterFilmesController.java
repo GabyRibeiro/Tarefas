@@ -37,7 +37,7 @@ public class ManterFilmesController extends HttpServlet {
 		case "inserir":
 			fService = new FilmeService();
 			filme = new Filme();
-			filme.setTitulo("O Náufrago");
+			filme.setTitulo("TESTE 1");
 			filme.setDescricao("Chuck Noland (Tom Hanks) um inspetor da Federal Express (FedEx), "
 					+ "multinacional encarregada de enviar cargas e correspondências, que tem por "
 					+ "função checar vários escritórios da empresa pelo planeta. Porém, em uma de "
