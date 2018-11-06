@@ -18,13 +18,15 @@
 	<form>
   <div class="form-group">
     <label for="exampleInputEmail1">Login</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <input type="email" class="form-control" id="login" aria-describedby="emailHelp" placeholder="Digite seu login">
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Senha</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <input type="password" class="form-control" id="senha" placeholder="Senha">
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+ <a href="logar">
+ 	<button type="submit" class="btn btn-primary" acao="logar">Entrar</button>
+ </a> 
 </form>
 
 </body>
